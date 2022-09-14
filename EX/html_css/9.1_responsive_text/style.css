@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .block {
+    background-color: plum;
+    color: white;
+    border: 1px solid yellow;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .text1 {
+    background-color: pink;
+  }
+  .text2 {
+    background-color: palevioletred;
+  }
+  
+  @media all and (max-width: 700px) {
+    .block {
+      font-size: 10px;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    .block {
+      font-size: 40px;
+    }
+  }
+  @media all and (min-width: 701px) and (max-width: 1199px) {
+    .block {
+      font-size: 22px;
+    }
+  }
+  @media all and (max-width: 700px), (min-width: 1000px) {
+    
+  }
+  
+  

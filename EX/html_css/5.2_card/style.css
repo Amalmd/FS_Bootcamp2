@@ -1,0 +1,32 @@
+.card {
+    background-color: lightgoldenrodyellow;
+    width: 40%;
+    box-shadow: 10px 5px 10px 0 gray;
+    border-radius: 5px 5px 5px 5px;
+    margin: 30px 30px;
+  }
+  
+  .img {
+    width: 100%;
+    margin-bottom: -10px;
+  }
+  
+  .card-text {
+    padding: 3px 16px;
+  }
+  
+  .card-text,
+  h4,
+  p,
+  a {
+    margin: auto;
+    padding: 8px 4px 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: blue;
+  }
+  .card-text h4 {
+    font-weight: bold;
+  }

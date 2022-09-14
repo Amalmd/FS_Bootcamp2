@@ -1,0 +1,114 @@
+.buttons {
+    background-color: #4267B2;
+    padding: 20px 20px;
+  }
+  .btns {
+    margin-left: 30px;
+  }
+  
+  .btn1 {
+    background-color: rgb(97, 165, 247);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+    transition-duration: 0.2s;
+  }
+  .btn1:hover {
+    background-color: rgb(42, 81, 129);
+    color: white;
+
+  }
+  
+  .btn2 {
+    background-color: rgb(90, 200, 90);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    transition-duration: 0.10s;
+  }
+  .btn2:hover {
+    background-color: rgb(59, 133, 59);
+  }
+  
+  
+  .btn3 {
+    border: 1px solid red;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+  }
+  .btn3:hover {
+   background-color: red;
+  }
+  
+  .btn4 {
+    border: 1px solid yellow;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    border-radius: 40px;
+    transition-duration: 0.10s;
+  }
+  .btn4:hover {
+background-color: rgba(255, 225, 0, 0.979);
+  }
+
+  .btn5 {
+    border: 2px solid lightseagreen;
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+    border-radius: 40px;
+    transition-duration: 0.10s;
+  }
+  .btn5:hover {
+background-color: lightseagreen;
+  }
+
+  .btn6 {
+    border: 2px solid rgb(178, 43, 178);
+    font-size: 12px;
+    color: white;
+    background-color: transparent;
+    width: 60px;
+    height: 30px;
+  }
+  .btn6:hover {
+   background-color: rgb(178, 43, 178);
+  }
+  
+  .btn7 {
+    background-color: rgb(245, 96, 145);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 60px;
+    height: 30px;
+    transition-duration: 0.10s;
+  }
+  .btn7:hover {
+    background-color: rgb(220, 97, 138);
+  }
+
+  .btn8 {
+    background-color: rgb(255, 225, 0);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    transition-duration: 0.10s;
+  }
+  .btn8:hover {
+    background-color: rgb(255, 200, 0);
+    color: white;
+
+  }
