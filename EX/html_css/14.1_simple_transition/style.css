@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --primary-color: blue;
+    --secondery-color: lightskyblue;
+}
+
+.box-1{
+    background-color: var(--primary-color);
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box-1::before{
+    transform: translateX(100%);
+    transition: all 2s ease-in-out;
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+
+}
+
+.box-1:hover::before{
+
+    transform: translateX(0%);
+    background-color: var(--secondery-color);
+}
